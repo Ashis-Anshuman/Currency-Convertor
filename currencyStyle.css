@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: cadetblue;
+}
+
+.container{
+    background-color: white;
+    min-height: 45vh;
+    width: 40vh;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    
+}
+
+h3{
+    text-align: center;
+}
+
+form{
+    margin: 1rem 0rem 1rem 0rem ;
+}
+
+form input,select,button {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+}
+
+form input{
+    min-height: 2rem;
+    background-color: rgb(239, 239, 239);
+    padding-left: 0.5rem;
+    font-size: medium;
+    margin-bottom: 0.5rem;
+}
+
+.curency{
+    display: flex;
+    justify-content: space-between;
+}
+
+.curency img{
+    height: 1.7rem;
+}
+
+.select{
+    display: flex;
+    background-color: rgb(239, 239, 239);
+    border-radius: 1.5rem;
+    margin: 1rem 0rem;
+    padding: 0.1rem;
+    select{
+        background-color: rgb(239, 239, 239);
+    }
+}
+
+.curency i{
+    margin-top: 2.5rem;
+}
+
+.msg{
+    text-align: center;
+    font-size: large;
+    margin: 1.5rem;
+}
+
+form button{
+    padding: 1rem;
+    background-color:rgb(207, 237, 186);
+    font-size:1rem;
+    color: rgb(163, 25, 29);
+}
